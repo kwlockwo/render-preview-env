@@ -1,0 +1,10 @@
+previews:
+  generation: automatic
+services:
+  - type: nodejs
+    name: pr-simple-server
+    repo: https://github.com/kwlockwo/simple-server
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - fromGroup: my-blueprint-managed-group
