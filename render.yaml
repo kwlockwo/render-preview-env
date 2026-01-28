@@ -1,7 +1,7 @@
 previews:
   generation: automatic
 services:
-  - type: nodejs
+  - type: node
     name: pr-simple-server
     repo: https://github.com/kwlockwo/simple-server
     buildCommand: npm install
