@@ -5,6 +5,7 @@ services:
     runtime: node
     name: pr-simple-server
     repo: https://github.com/kwlockwo/simple-server
+    region: oregon
     buildCommand: npm install
     startCommand: node server.js
     envVars:
